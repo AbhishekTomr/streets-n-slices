@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="flex items-center justify-between mb-5">
       <Link href="/" className={`text-primary font-semibold text-4xl`}>
-        Street n Spices
+        Streets & Slices
       </Link>
       <nav className="flex gap-8 text-gray-600 font-semibold items-center">
         <Link href={"/home"} className="nav-link">
