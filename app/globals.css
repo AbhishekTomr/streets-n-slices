@@ -8,3 +8,22 @@ section.landing-page-section {
   @apply grid;
   grid-template-columns: 0.8fr 0.6fr;
 }
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  @apply border p-2 block border-gray-300 bg-gray-200;
+  @apply block w-full my-2 rounded-xl;
+}
+
+button {
+  @apply block w-full text-gray-600 font-semibold;
+  @apply border rounded-xl border-gray-600 px-6 py-2;
+  @apply hover:cursor-pointer my-4;
+}
+
+button[type="submit"],
+.submit {
+  @apply bg-primary text-white border-transparent;
+  @apply hover:bg-white hover:text-primary transition-all hover:border-1 hover:border-primary;
+}

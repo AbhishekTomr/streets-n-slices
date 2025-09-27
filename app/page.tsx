@@ -39,9 +39,6 @@ export default function Home() {
           </a>
         </div>
       </section>
-      <footer className="border-t p-8 mt-16">
-        &copu: 2025 All rights reserved
-      </footer>
     </>
   );
 }
